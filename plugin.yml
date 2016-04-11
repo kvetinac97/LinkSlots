@@ -1,0 +1,9 @@
+name: LinkSlots
+author: kvetinac97
+version: 1.1.0
+api: ["2.0.0"]
+main: kvetinac97\Main
+description: "Link slots of all your servers!"
+load: STARTUP
+commands: []
+permissions: []
