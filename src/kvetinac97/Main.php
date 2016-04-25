@@ -43,9 +43,9 @@ class Main extends PluginBase implements Listener {
         }
         foreach ($this->config->get("servers") as $ip => $port){
             /** @var int $onl */
-            $onl = file_get_contents("http://queryapi.minetox.cz/online.php?ip=$ip&port=$port");
+            $onl = file_get_contents("https://www.minetox.cz/queryapi/online.php?ip=$ip&port=$port");
             /** @var int $max */
-            $max = file_get_contents("http://queryapi.minetox.cz/maxonline.php?ip=$ip&port=$port");
+            $max = file_get_contents("https://www.minetox.cz/queryapi/maxonline.php?ip=$ip&port=$port");
             if ($onl == -1 || $max == -1){
                 if (!$task){
                     $this->getLogger()->warning("§cCould not connect to §e$ip:§b$port; §cThe server is offline");
