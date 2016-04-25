@@ -6,5 +6,5 @@ LinkSlots v1.1.0 for ImagicalMine
 Link Slots of all your servers - just write IP:port into config!
 Supports unlimited server count!
 
-MinecraftQuery part is located at https://www.minetox.cz/querapi/,
+MinecraftQuery part is located at https://www.minetox.cz/queryapi/,
 so the whole plugin copyright is by © kvetinac97
